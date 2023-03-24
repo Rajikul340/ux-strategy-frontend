@@ -1,4 +1,105 @@
-
-h1 {
-    color: red;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+/* For small devices */
+@media screen and (max-width: 767px) {
+
+  }
+
+
+  /* large device */
+@media screen and (min-width: 768px) {
+
+    .redefining{
+        background-color: #03132ce5;
+         color: white;
+         z-index: 1;
+    
+        }
+        
+        .uxST{
+         display: flex;
+         width: 350px ;
+         
+         margin-left: 55%;
+         margin-top: 10%;
+        }
+        .uxST .Subredefining{
+            
+        position: absolute;
+        top: 18%;
+        font-weight: 300;
+        }
+        .uxST h1 {
+         position: absolute;
+         top: 22%;
+        }
+        .uxST .ui{
+         position: absolute;
+         top: 30%;
+         left: 77%;
+         font-weight: 300;
+        }
+        .icon{
+          width: 320px;
+          height: 320px;
+          background-color: #1D2B42;
+          border-radius: 100%;
+        
+        }
+        .abcSection{
+            
+            margin: 145px 25px;
+            font-weight: 100;
+          
+        }
+        .abcwidth{
+            width: 200px;
+        }
+        .rightSide{
+           background-color: black;
+           position: relative;
+         
+        }
+      .redPizza{
+        position: absolute;
+            left: 0;
+            width: 300px;
+      }
+      .pizza{
+        position: absolute;
+        right: 20%;
+        width: 250px;
+        top: 20%;
+
+      }
+      .bread{
+        top: 0;
+        position: absolute;
+        right: 0;
+
+      }
+      .CutBread{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 250px;
+
+      }
+      .food{
+        position: absolute;
+        bottom: 5%;
+        width: 250px;
+        left: 5%;
+      }
+    }
+    .faArrow{
+        font-weight: 100;
+        margin: 2px;
+        
+    }
+
+
+
