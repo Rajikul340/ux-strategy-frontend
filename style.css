@@ -1,8 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+
+body,
+html {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
+
+
 /* For small devices */
 @media screen and (max-width: 767px) {
 
@@ -29,18 +32,26 @@
         .uxST .Subredefining{
             
         position: absolute;
-        top: 18%;
-        font-weight: 300;
+        top: 19%;
+        font-size: 18px;
+        font-weight: 400;
+       
         }
         .uxST h1 {
          position: absolute;
          top: 22%;
+         font-size: 48px;
+        }
+       .uxST .tex-head{
+          position: absolute;
+          top: 22%;
+          left: 40%;
         }
         .uxST .ui{
          position: absolute;
          top: 30%;
-         left: 77%;
-         font-weight: 300;
+         left: 70%;
+         font-weight: 400;
         }
         .icon{
           width: 320px;
@@ -94,12 +105,160 @@
         width: 250px;
         left: 5%;
       }
+      .gallary{
+        position: absolute;
+     
+        width: 250px;
+        right: 5%;
+      }
+      .remix{
+        position: absolute;
+        width: 250px;
+        top: 30%;
+        left: 20%;
+      }
+      .blockChain{
+        background-color: #470bb0e5;
+        color: white;
+        z-index: 1;
+      }
+      .BlockChainIcon{
+        width: 320px;
+        height: 320px;
+        background-color: #5A24B8;
+        border-radius: 100%;
+      
+      }
+      .blockChainRightSide{
+        background-color: hwb(244 6% 28% / 0.64);
+          position: relative;
+        
+      }
+      .headLine{
+        background-color: blue;
+        color: white;
+        z-index: 1;
+      }
+      .headlineIcon{
+        width: 320px;
+        height: 320px;
+        background-color: blue;
+        border-radius: 100%;
+      }
+      .shopImg{
+        width: 680px;
+        height: 800px;
+        background: url("https://images.unsplash.com/photo-1617103996702-96ff29b1c467?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+        background-size: cover;
+        background-repeat: no-repeat;
+         min-height: auto;
+       
+      }
+      .estAsia{
+        background-color: green;
+        color: white;
+        z-index: 1;
+      }
+      .EastAsiaIcon{
+        width: 320px;
+        height: 320px;
+        background-color: green;
+        border-radius: 100%;
+      }
+      .ClockrightSide{
+        background-color: rgb(79, 198, 79);
+        position: relative;
+      }
+      .wear{
+        position: absolute;
+       top:30%;
+       right: 33%;
+        width: 310px;
+
+      }
+      .clock{
+        position: absolute;
+        width: 250px;
+        right: 10%;
+        top: 25%;
+      }
+      .headlineBg{
+        background-color: aquamarine; 
+        position: relative;
+      }
+
+      .story{
+        position: absolute;
+        width: 200px;
+       
+        bottom: 2%;
+         right: 30%;
+       
+      }
+      .wallpaper{
+        position: absolute;
+        width: 200px;
+        top: 52%;
+        left: 15%; 
+      }
+      .travel{
+        position: absolute;
+        width: 200px;
+        right: 2%;
+        top: 20%;
+      }
+      .handsman{
+        position: absolute;
+        width: 200px;
+        top: 5%;
+        right: 30%;
+       
+      }
+      .messanger{
+        position: absolute;
+        width: 200px;
+        left: 15%; 
+      }
+      .headImg{
+      width: 40px;
+      height: 20px;
+      }
+      .nasaIcon{
+        background-color: rgb(58, 42, 184); 
+        width: 320px;
+        height: 320px;
+        border-radius: 100%;
+      }
+      .nasa{
+        background-color: rgb(58, 42, 184); 
+        color: white;
+        z-index: 1;
+      }
+      .socialBg{
+        background-color: rgb(28, 22, 74); 
+        position: relative;
     }
-    .faArrow{
+    .mobile{
+        position: absolute;
+        width: 200px;
+        top: 0;
+        right: 4%;
+      }
+  .man{
+      position: absolute;
+        width: 250px;
+        top: 10%;
+        left: 25%;
+    }
+ }
+   
+ 
+ 
+ .faArrow{
         font-weight: 100;
         margin: 2px;
         
     }
 
-
+   
 
