@@ -25,12 +25,11 @@ html {
         .uxST{
          display: flex;
          width: 350px ;
-         
          margin-left: 55%;
          margin-top: 10%;
         }
         .uxST .Subredefining{
-            
+         z-index: 1;
         position: absolute;
         top: 19%;
         font-size: 18px;
@@ -40,11 +39,12 @@ html {
         .uxST h1 {
          position: absolute;
          top: 22%;
-         font-size: 48px;
+        
         }
        .uxST .tex-head{
           position: absolute;
           top: 22%;
+          font-size: 48px;
           left: 40%;
         }
         .uxST .ui{
@@ -52,6 +52,7 @@ html {
          top: 30%;
          left: 70%;
          font-weight: 400;
+         z-index: 1;
         }
         .icon{
           width: 320px;
@@ -60,12 +61,12 @@ html {
           border-radius: 100%;
         
         }
-        .abcSection{
-            
-            margin: 145px 25px;
+        .abcSection{  
+            margin: 71px 30px;
             font-weight: 100;
           
         }
+     
         .abcwidth{
             width: 200px;
         }
@@ -75,7 +76,7 @@ html {
          
         }
       .redPizza{
-        position: absolute;
+           position: absolute;
             left: 0;
             width: 300px;
       }
@@ -135,25 +136,30 @@ html {
         
       }
       .headLine{
-        background-color: blue;
+        background-color: rgb(22, 10, 105);
         color: white;
         z-index: 1;
       }
       .headlineIcon{
         width: 320px;
         height: 320px;
-        background-color: blue;
+        background-color: rgb(22, 10, 105);
         border-radius: 100%;
       }
-      .shopImg{
+      .shopImgBg{
         width: 680px;
-        height: 800px;
+        height: 880px;
         background: url("https://images.unsplash.com/photo-1617103996702-96ff29b1c467?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
         background-size: cover;
         background-repeat: no-repeat;
          min-height: auto;
        
       }
+      .shopImg{
+        width: 680px;
+        height: 880px;
+      }
+
       .estAsia{
         background-color: green;
         color: white;
@@ -220,14 +226,23 @@ html {
         left: 15%; 
       }
       .headImg{
-      width: 40px;
-      height: 20px;
+      width: 200px;
+      height: 50px;
+   
+      position: absolute;
+        z-index: 1;
+        top: 23%;
+   
       }
+  
       .nasaIcon{
         background-color: rgb(58, 42, 184); 
         width: 320px;
         height: 320px;
         border-radius: 100%;
+        position: relative;
+
+   
       }
       .nasa{
         background-color: rgb(58, 42, 184); 
@@ -250,10 +265,215 @@ html {
         top: 10%;
         left: 25%;
     }
+
+    main{
+      position: relative;
+    
+    }
+    .section1{
+    position: absolute;
+     top: 0;
+     width: 1293px;
+     height: 880px;
+    }
+    .section2{
+    position: absolute;
+    width: 1293px;
+     height: 880px;
+     top: 0;
+    }
+    .section3{
+    position: absolute;
+    width: 1293px;
+    height: 880px;
+     top: 0;
+    }
+    .section4{
+    position: absolute;
+    width: 1293px;
+     height: 880px;
+     top: 0;
+    }
+    .section5{
+      position: absolute;
+      top: 0;
+      width: 1293px;
+     height: 880px;
+    }
+    .section6{
+      position: absolute;
+      top: 0;
+      width: 1293px;
+     height: 880px;
+    }
+    .section7{
+      position: absolute;
+      top: 0;
+      width: 1293px;
+     height: 880px;
+    }
+
+    .uxST .download{
+      position: absolute;
+      top: 22%;
+      font-size: 48px;
+      left: 20%;
+    }
+    .downloadBg{
+      background-color: #5d13abe5;
+        color: white;
+        z-index: 1;
+    }
+    .downloadIcon{
+      width: 320px;
+      height: 320px;
+      background-color: #6E2BB4;
+      border-radius: 100%;
+    }
+    .uxST .industry{
+      position: absolute;
+     margin-top: 38%;
+      font-weight: 400;
+   
+     }
+     .downloadRightSide{
+      background: linear-gradient(to right, rgb(243, 244, 246), rgb(209, 213, 219));
+     }
+     .police{
+      position: absolute;
+      width: 300px;
+      top: 10%;
+      left: 7%;
+     }
+     .dil{
+      position: absolute;
+      right: 20%;
+      top: 10%;
+      width: 300px;
+     }
+     .footerBg{
+      background-color: rgb(9, 113, 241);
+      color: white;
+      z-index: 1;
+     }
+     .footerIcon{
+      width: 320px;
+      height: 320px;
+      background-color: rgb(9, 113, 241);
+      border-radius: 100%;
+     }
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+        transform: translate(0, 20px);
+      }
+      to {
+        opacity: 1;
+        transform: translate(0, 0);
+      }
+    }
+
+    .fade-in {
+      opacity: 50;
+    }
+    .fade-in-animation {
+      animation: fade-in 1s ease-out;
+    }
+
+
+    @keyframes example {
+      0%   {
+        opacity: 0;
+        transform: translate(0, 60px);
+
+      }
+   
+      100% {
+        opacity: 1;
+        transform: translate(0, 100);
+      }
+    }
+    @keyframes mobileAnim {
+      0%   {
+        opacity: 0;
+        transform: translate(0, 0px);
+
+      }
+      100% {
+        opacity: 1;
+        transform: translate(8px, 80px);
+      }
+    }
+    @keyframes nasalogo {
+      0%   {
+        opacity: 0;
+        transform: translate(0, 0px);
+
+      }
+      100% {
+        opacity: 1;
+        transform: translate(0, 8px);
+      }
+    }
+  
+  
+
+    .man  {
+      animation: example 2s ease-in-out ;
+    }
+    
+    .mobile{
+      animation: mobileAnim 2s ease-in ;
+    }
+     .headImg{
+      animation: nasalogo 2s ease-in ;
+     }
+    
+     .download{
+      animation: nasalogo 2s ease-in ;
+     }
+     .police{
+      animation: example 2s ease-in-out ;
+     }
+     .dil{
+      animation: mobileAnim 2s ease-in ;
+     }
+     .industry{
+      animation: nasalogo 2s ease-in ;
+     }
+     .abcDesAnim{
+      animation: nasalogo 2s ease-in ;
+     }
+     .strategy {
+      animation: nasalogo 2s ease-in ;
+     }
+     .tex-head{
+      animation: nasalogo 2s ease-in ;
+     }
+     .abcAnim{
+      animation: nasalogo 2s ease-in ;
+     }
+     .abcIcon{
+      animation: nasalogo 2s ease-in ;
+     }
+     .wear{
+      animation: example 2s ease-in-out ;
+     }
+     .clock{
+      animation: mobileAnim 2s ease-in ;
+     }
+     .Subredefining{
+      animation: nasalogo 2s ease-in ;
+     }
+      .ui{
+        animation: nasalogo 2s ease-in ;
+      }
+      .shopImg{
+        animation: example 2s ease-in ;
+      }
  }
    
- 
- 
+
  .faArrow{
         font-weight: 100;
         margin: 2px;
